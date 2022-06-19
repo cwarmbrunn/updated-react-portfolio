@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <div>
       <h1> Blog Page 1 - Test Experiment </h1>
@@ -20,6 +20,9 @@ export default function Blog() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.{" "}
       </p>
+      
+      <h2> Cat Name Generator 🐱</h2>
+
     </div>
   );
 }
