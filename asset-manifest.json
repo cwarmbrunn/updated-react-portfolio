@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ef0fe174.css",
+    "main.js": "/react-portfolio/static/js/main.c2aa323a.js",
+    "static/media/weathergif.gif": "/react-portfolio/static/media/weathergif.c99370765e3999c2d824.gif",
+    "static/media/Korilakkuma Mask.jpg": "/react-portfolio/static/media/Korilakkuma Mask.0c5eae9988203d8089b0.jpg",
+    "static/media/cat-name-generator-1.jpg": "/react-portfolio/static/media/cat-name-generator-1.e2b8d1239c7b8d88f19e.jpg",
+    "static/media/developer-tech.jpg": "/react-portfolio/static/media/developer-tech.c73e8efb6e67996491f1.jpg",
+    "static/media/budget-tracker.jpg": "/react-portfolio/static/media/budget-tracker.0bd35d89218bcbdc6adf.jpg",
+    "static/media/city-app.png": "/react-portfolio/static/media/city-app.4eb5432a84deb463dd31.png",
+    "static/media/timed-quiz.jpg": "/react-portfolio/static/media/timed-quiz.593097126b223aa0ec04.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.ef0fe174.css.map": "/react-portfolio/static/css/main.ef0fe174.css.map",
+    "main.c2aa323a.js.map": "/react-portfolio/static/js/main.c2aa323a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef0fe174.css",
+    "static/js/main.c2aa323a.js"
+  ]
+}
