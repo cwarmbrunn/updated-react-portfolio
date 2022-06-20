@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Me!</h1>
+    <body>
+      <h1 className="mx-3 text-center">Contact</h1>
       <p>
         {" "}
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -20,6 +20,37 @@ export default function Contact() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
-    </div>
+      <footer className="mx-auto d-block mb-1 text-center">
+        <p>
+          ©️ Christina Warmbrunn{" "}
+          <span className="mx-auto d-block">
+            Connect with me on{" "}
+            <a
+              href="https://www.linkedin.com/in/christina-warmbrunn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>{" "}
+            ,{" "}
+            <a
+              href="https://github.com/cwarmbrunn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            , or{" "}
+            <a
+              href="https://stackoverflow.com/users/17689187/cwarmbrunn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Stack Overflow
+            </a>
+          </span>
+        </p>
+      </footer>
+    </body>
   );
 }
