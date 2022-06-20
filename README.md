@@ -29,4 +29,4 @@ No installation needed!
 
 **Screenshot:**
 
-![Screenshot of a React portfolio]()
+![Screenshot of a React portfolio](./src/assets/react-portfolio.png)
