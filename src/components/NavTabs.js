@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          Christina Warmbrunn
+          Christina Warmbrunn ✨
         </a>
       </li>
 
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Contact{" "}
+          Contact Me{" "}
         </a>{" "}
       </li>
       {/* LIST ITEM #4 - RESUME  */}

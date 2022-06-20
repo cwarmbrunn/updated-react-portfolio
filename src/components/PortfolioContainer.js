@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
@@ -18,11 +19,14 @@ export default function PortfolioContainer() {
     if (currentPage === "About") {
       return <About />;
     }
-    // If page is on "Blog" - render the Blog page
-    if (currentPage === "Blog") {
-      return <Blog />;
+    // If page is on "Portfolio" - render the Portfolio page
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
     }
-
+    // If page is on "Resume" - render the Resume page
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
     return <Contact />;
   };
 
