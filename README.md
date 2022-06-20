@@ -12,7 +12,7 @@ Making updates to a previous portfolio using React skills to enhance existing el
 
 **Live Site:**
 
-Check out the deployed site [here]()!
+Check out the deployed site [here](http://cwarmbrunn.github.io/updated-react-portfolio)!
 
 ---
 
