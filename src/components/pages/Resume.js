@@ -5,22 +5,24 @@ export default function Resume() {
     <body>
       <h2>Skills</h2>
       <p class="title-2">
-        <li style="list-style-type: none;">HTML</li>
-        <li style="list-style-type: none;">CSS</li>
-        <li style="list-style-type: none;">Git</li>
-        <li style="list-style-type: none;">Bootstrap</li>
-        <li style="list-style-type: none;">Tailwind</li>
-        <li style="list-style-type: none;">JavaScript</li>
-        <li style="list-style-type: none;">Node.js</li>
-        <li style="list-style-type: none;">Express.js</li>
-        <li style="list-style-type: none;">JSX</li>
-        <li style="list-style-type: none;">Auth0</li>
-        <li style="list-style-type: none;">Handlebars</li>
-        <li style="list-style-type: none;">React</li>
-        <li style="list-style-type: none;">Progressive Web Applications</li>
-        <li style="list-style-type: none;">Insomnia</li>
-        <li style="list-style-type: none;">SQL</li>
-        <li style="list-style-type: none;">NoSQL</li>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>Bootstrap</li>
+          <li>Tailwind</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>JSX</li>
+          <li>Auth0</li>
+          <li>Handlebars</li>
+          <li>React</li>
+          <li>Progressive Web Applications</li>
+          <li>Insomnia</li>
+          <li>SQL</li>
+          <li>NoSQL</li>
+        </ol>
       </p>
     </body>
   );

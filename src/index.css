@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    font-family: Chivo, "sans-serif";
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+}

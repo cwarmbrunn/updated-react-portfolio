@@ -4,6 +4,8 @@ import React from "react";
 // Set up function for the navigation tabs
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+
+
     // Return an unordered list
     <ul className="nav nav-tabs">
       {/* LIST ITEM # 1 - HOME  */}
@@ -51,6 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+
   );
 }
 
