@@ -4,6 +4,7 @@
   --tertiary-color: rgb(220, 220, 220);
 }
 * {
+  background-color:#B399A2 ;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
