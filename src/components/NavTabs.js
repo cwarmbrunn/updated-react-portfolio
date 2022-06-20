@@ -5,8 +5,8 @@ import React from "react";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     // Return an unordered list
-    <nav>
-      <ul className=" nav nav-tabs">
+    <nav className="fw-bold">
+      <ul className="nav nav-tabs">
         {/* LIST ITEM # 1 - HOME  */}
         <li className="nav-item">
           <a

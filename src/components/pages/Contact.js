@@ -1,25 +1,95 @@
 import React, { useState } from "react";
 
-export default function Contact() {
+import { validateEmail } from "../../utils/helpers";
+
+function ContactForm() {
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [errorMessage, setErrorMessage] = useState("");
+  const { name, email, message } = formState;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!errorMessage) {
+      setFormState({ [e.target.name]: e.target.value });
+      console.log("Form", formState);
+    }
+  };
+
+  const handleChange = (e) => {
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage("Your email is invalid.");
+      } else {
+        setErrorMessage("");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage("");
+      }
+    }
+  };
+
   return (
-    <body>
-      <h1 className="mx-3 text-center">Contact</h1>
-      <p>
-        {" "}
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <section>
+      <h1 data-testid="h1tag" className="text-center mx-4">
+        Contact Me!
+      </h1>
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <div className="text-center mx-4">
+          <label htmlFor="name" className="mx-3">
+            Name:
+          </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Christina Warmbrunn"
+            defaultValue={name}
+            onBlur={handleChange}
+          />
+        </div>
+        <div className="text-center mx-4 mt-3">
+          <label htmlFor="email" className="mx-3">
+            Email address:
+          </label>
+          <input
+            type="email"
+            name="email"
+            placeholder="hello@me.com"
+            defaultValue={email}
+            onBlur={handleChange}
+          />
+        </div>
+        <div className="text-center mx-4 mt-3">
+          <label htmlFor="message" className="mx-3">
+            Message:
+          </label>
+          <textarea
+            name="message"
+            placeholder="Hello World!"
+            rows="5"
+            defaultValue={message}
+            onBlur={handleChange}
+          />
+        </div>
+        <div className="mx-4 mt-3 mb-4 text-center">
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <button data-testid="button" type="submit" className="mx-auto">
+            Submit
+          </button>
+        </div>
+      </form>
       <footer className="mx-auto d-block mb-1 text-center">
         <p>
           ©️ Christina Warmbrunn{" "}
@@ -51,6 +121,8 @@ export default function Contact() {
           </span>
         </p>
       </footer>
-    </body>
+    </section>
   );
 }
+
+export default ContactForm;
