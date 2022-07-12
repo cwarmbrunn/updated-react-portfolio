@@ -5,11 +5,60 @@ import budgetTracker from "../../assets/budget-tracker.jpg";
 import techBlog from "../../assets/developer-tech.jpg";
 import cityApp from "../../assets/city-app.png";
 import weatherDashboard from "../../assets/weathergif.gif";
+// TODO: NEED TO IMPORT THE SCREENSHOT FOR PROJECT 3
 
 export default function Portfolio() {
   return (
     <div>
-      {/* PROJECT #1 - IT TAKES A CITY */}
+      {/* PROJECT #1 - PROJECT 3*/}
+      <h2 className="alert text-center title-1"> It Takes A City Too </h2>
+      <img
+        src={weatherDashboard}
+        width="70%"
+        className="mx-auto d-block mb-1 mt-2"
+        alt="A screenshot of a site that allows user to create posts with resources for those in their community"
+      />
+      <p className="mx-auto d-block mb-1 mt-2">
+        <strong>Project Overview:</strong> Enhancing our "It Takes a City" app
+        with some additional features - the upgraded version includes React, JWT
+        authentication, allows the user to view posts by specific city, a
+        resource page, and uses MongoDB and Mongoose ODM for the database.
+      </p>
+      <p className="mx-auto d-block mb-1 mt-2">
+        <strong>Role:</strong> Acted as Frontend/Backend Developer and Program
+        Manager - set up initial file structure/layout, used Bootstrap for
+        UX/UI, created multiple page components with React, psuedocoded
+        mutations, set up Kanban board to ensure team goals and responsibilities
+        were clearly delegated, and used JWT for authentication.
+      </p>
+
+      <p className="mx-auto d-block mb-1 mt-2">
+        <strong>Technologies Used:</strong> JavaScript, HTML, CSS, Bootstrap,
+        JWT, React, GQL, MongoDB, MongooseODM, Heroku
+      </p>
+      {/* TODO: Add in the Heroku link once deployed */}
+      <p className="text-center fw-bold mx-4 mt-2">
+        <a
+          href=""
+          target="_blank"
+          rel="noreferrer"
+          className="text-decoration-none"
+        >
+          Deployed Site{" "}
+        </a>
+      </p>
+      <p className="text-center fw-bold mx-4 mt-2 mb-5">
+        <a
+          href="https://github.com/cwarmbrunn/it-takes-a-city-too"
+          target="_blank"
+          rel="noreferrer"
+          className="text-decoration-none"
+        >
+          GitHub Repository{" "}
+        </a>
+      </p>
+
+      {/* PROJECT #2 - IT TAKES A CITY */}
       <h2 className="alert text-center title-1">It Takes A City</h2>
       <img
         src={cityApp}
@@ -53,7 +102,7 @@ export default function Portfolio() {
         </a>
       </p>
 
-      {/* PROJECT #2 - CAT NAME GENERATOR */}
+      {/* PROJECT #3 - CAT NAME GENERATOR */}
       <h2 className="alert text-center title-1"> Cat Name Generator 🐱</h2>
       <img
         src={catNameGenerator}
@@ -98,7 +147,7 @@ export default function Portfolio() {
         </a>
       </p>
 
-      {/* PROJECT #3 - CODING QUIZ */}
+      {/* PROJECT #4 - CODING QUIZ */}
       <h2 className="alert text-center title-1">Coding Quiz</h2>
       <img
         src={timedQuiz}
@@ -142,7 +191,7 @@ export default function Portfolio() {
         </a>
       </p>
 
-      {/* PROJECT #4 - BUDGET TRACKER APP */}
+      {/* PROJECT #5 - BUDGET TRACKER APP */}
       <h2 className="alert text-center title-1">Budget Tracker App</h2>
       <img
         src={budgetTracker}
@@ -188,7 +237,7 @@ export default function Portfolio() {
         </a>
       </p>
 
-      {/* PROJECT #5 - DEVELOPER TECH BLOG */}
+      {/* PROJECT #6 - DEVELOPER TECH BLOG */}
       <h2 className="alert text-center title-1"> Developer Tech Blog</h2>
       <img
         src={techBlog}
@@ -234,7 +283,7 @@ export default function Portfolio() {
         </a>
       </p>
 
-      {/* PROJECT #6 - WEATHER DASHBOARD */}
+      {/* PROJECT #7 - WEATHER DASHBOARD */}
       <h2 className="alert text-center title-1"> Weather Dashboard </h2>
       <img
         src={weatherDashboard}
