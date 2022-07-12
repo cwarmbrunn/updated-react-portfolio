@@ -12,8 +12,9 @@ export default function Portfolio() {
     <div>
       {/* PROJECT #1 - PROJECT 3*/}
       <h2 className="alert text-center title-1"> It Takes A City Too </h2>
+      {/* TODO: Update image src */}
       <img
-        src={weatherDashboard}
+        src="#"
         width="70%"
         className="mx-auto d-block mb-1 mt-2"
         alt="A screenshot of a site that allows user to create posts with resources for those in their community"
@@ -39,7 +40,7 @@ export default function Portfolio() {
       {/* TODO: Add in the Heroku link once deployed */}
       <p className="text-center fw-bold mx-4 mt-2">
         <a
-          href=""
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="text-decoration-none"
