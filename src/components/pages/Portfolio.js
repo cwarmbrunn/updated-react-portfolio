@@ -5,7 +5,7 @@ import budgetTracker from "../../assets/budget-tracker.jpg";
 import techBlog from "../../assets/developer-tech.jpg";
 import cityApp from "../../assets/city-app.png";
 import weatherDashboard from "../../assets/weathergif.gif";
-// TODO: NEED TO IMPORT THE SCREENSHOT FOR PROJECT 3
+import project3 from "../../assets/project-3";
 
 export default function Portfolio() {
   return (
@@ -14,7 +14,7 @@ export default function Portfolio() {
       <h2 className="alert text-center title-1"> It Takes A City Too </h2>
       {/* TODO: Update image src */}
       <img
-        src="#"
+        src={project3}
         width="70%"
         className="mx-auto d-block mb-1 mt-2"
         alt="A screenshot of a site that allows user to create posts with resources for those in their community"
