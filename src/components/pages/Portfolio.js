@@ -12,7 +12,6 @@ export default function Portfolio() {
     <div>
       {/* PROJECT #1 - PROJECT 3*/}
       <h2 className="alert text-center title-1"> It Takes A City Too </h2>
-      {/* TODO: Update image src */}
       <img
         src={project3}
         width="70%"
@@ -40,7 +39,7 @@ export default function Portfolio() {
       {/* TODO: Add in the Heroku link once deployed */}
       <p className="text-center fw-bold mx-4 mt-2">
         <a
-          href="#"
+          href="https://discord.com/channels/@me/971218590617448528/997273717157675038"
           target="_blank"
           rel="noreferrer"
           className="text-decoration-none"
