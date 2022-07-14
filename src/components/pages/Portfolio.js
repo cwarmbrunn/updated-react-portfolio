@@ -5,7 +5,7 @@ import budgetTracker from "../../assets/budget-tracker.jpg";
 import techBlog from "../../assets/developer-tech.jpg";
 import cityApp from "../../assets/city-app.png";
 import weatherDashboard from "../../assets/weathergif.gif";
-import project3 from "../../assets/project-3";
+import project3 from "../../assets/project-3.jpg";
 
 export default function Portfolio() {
   return (
