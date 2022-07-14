@@ -39,7 +39,7 @@ export default function Portfolio() {
       {/* TODO: Add in the Heroku link once deployed */}
       <p className="text-center fw-bold mx-4 mt-2">
         <a
-          href="https://discord.com/channels/@me/971218590617448528/997273717157675038"
+          href="https://it-takes-a-city-too.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
           className="text-decoration-none"
