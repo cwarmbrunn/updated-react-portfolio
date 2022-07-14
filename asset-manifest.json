@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/updated-react-portfolio/static/css/main.f4bd0cdf.css",
-    "main.js": "/updated-react-portfolio/static/js/main.5939e36c.js",
+    "main.js": "/updated-react-portfolio/static/js/main.6d55923e.js",
     "static/media/weathergif.gif": "/updated-react-portfolio/static/media/weathergif.c99370765e3999c2d824.gif",
+    "static/media/project-3.jpg": "/updated-react-portfolio/static/media/project-3.c93fbcae699ff63c9097.jpg",
     "static/media/Korilakkuma Mask.jpg": "/updated-react-portfolio/static/media/Korilakkuma Mask.0c5eae9988203d8089b0.jpg",
     "static/media/cat-name-generator-1.jpg": "/updated-react-portfolio/static/media/cat-name-generator-1.e2b8d1239c7b8d88f19e.jpg",
     "static/media/developer-tech.jpg": "/updated-react-portfolio/static/media/developer-tech.c73e8efb6e67996491f1.jpg",
@@ -11,10 +12,10 @@
     "static/media/timed-quiz.jpg": "/updated-react-portfolio/static/media/timed-quiz.593097126b223aa0ec04.jpg",
     "index.html": "/updated-react-portfolio/index.html",
     "main.f4bd0cdf.css.map": "/updated-react-portfolio/static/css/main.f4bd0cdf.css.map",
-    "main.5939e36c.js.map": "/updated-react-portfolio/static/js/main.5939e36c.js.map"
+    "main.6d55923e.js.map": "/updated-react-portfolio/static/js/main.6d55923e.js.map"
   },
   "entrypoints": [
     "static/css/main.f4bd0cdf.css",
-    "static/js/main.5939e36c.js"
+    "static/js/main.6d55923e.js"
   ]
 }
