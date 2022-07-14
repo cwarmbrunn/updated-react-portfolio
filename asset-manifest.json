@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/updated-react-portfolio/static/css/main.f4bd0cdf.css",
-    "main.js": "/updated-react-portfolio/static/js/main.6d55923e.js",
+    "main.js": "/updated-react-portfolio/static/js/main.7477151a.js",
     "static/media/weathergif.gif": "/updated-react-portfolio/static/media/weathergif.c99370765e3999c2d824.gif",
     "static/media/project-3.jpg": "/updated-react-portfolio/static/media/project-3.c93fbcae699ff63c9097.jpg",
     "static/media/Korilakkuma Mask.jpg": "/updated-react-portfolio/static/media/Korilakkuma Mask.0c5eae9988203d8089b0.jpg",
@@ -12,10 +12,10 @@
     "static/media/timed-quiz.jpg": "/updated-react-portfolio/static/media/timed-quiz.593097126b223aa0ec04.jpg",
     "index.html": "/updated-react-portfolio/index.html",
     "main.f4bd0cdf.css.map": "/updated-react-portfolio/static/css/main.f4bd0cdf.css.map",
-    "main.6d55923e.js.map": "/updated-react-portfolio/static/js/main.6d55923e.js.map"
+    "main.7477151a.js.map": "/updated-react-portfolio/static/js/main.7477151a.js.map"
   },
   "entrypoints": [
     "static/css/main.f4bd0cdf.css",
-    "static/js/main.6d55923e.js"
+    "static/js/main.7477151a.js"
   ]
 }
